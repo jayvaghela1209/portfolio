@@ -56,12 +56,12 @@ export const skillGroups = [
   {
     label: 'cloud_and_devops',
     title: 'Cloud & DevOps',
-    items: ['AWS', 'Docker', 'Kubernetes', 'Terraform', 'Jenkins', 'GitHub Actions', 'Shell Scripting', 'Linux'],
+    items: ['AWS', 'Docker', 'Kubernetes', 'Jenkins', 'Git', 'GitHub', 'Linux', 'Shell Scripting', 'Nginx', 'Helm (Basic)'],
   },
   {
     label: 'backend',
     title: 'Backend & Data',
-    items: ['Python', 'Flask', 'FastAPI', 'SQLAlchemy', 'PostgreSQL', 'Supabase', 'REST APIs'],
+    items: ['Python', 'FastAPI', 'Flask', 'Jinja', 'SQLAlchemy', 'PostgreSQL'],
   },
   {
     label: 'frontend',
@@ -71,7 +71,7 @@ export const skillGroups = [
   {
     label: 'monitoring_and_tools',
     title: 'Monitoring & Tools',
-    items: ['CloudWatch', 'Grafana', 'Git', 'IAM', 'CI/CD'],
+    items: ['Prometheus', 'Grafana', 'CI/CD', 'Cloud Monitoring', 'Infrastructure Automation', 'Troubleshooting'],
   },
 ]
 
