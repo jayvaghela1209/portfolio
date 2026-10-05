@@ -19,17 +19,36 @@ export const projects = [
     id: 'eks-infra',
     name: 'EKS Cluster & CI/CD Automation',
     subtitle: 'Kubernetes Infrastructure, Provisioning, and Delivery Pipelines',
-    status: 'active',
+    status: 'complete',
     description:
       'Hands-on cloud infrastructure work: standing up and operating an AWS EKS cluster, automating provisioning, and building the delivery pipelines that ship changes into it.',
     highlights: [
       'EKS cluster provisioning and lifecycle management via eksctl and kubectl (Auto Mode)',
-      'Infrastructure as Code with Terraform for repeatable, version-controlled environments',
       'CI/CD pipelines with Jenkins and GitHub Actions feeding containerized Docker deployments',
       'Diagnosed and resolved ALB 503 errors and S3 bucket policy issues in a live environment',
+      'Containerized application deployment with version control and automated delivery workflows',
     ],
-    tags: ['AWS', 'Kubernetes', 'Terraform', 'Jenkins', 'Docker', 'GitHub'],
-    accent: 'violet',
+    tags: ['AWS', 'Kubernetes', 'Jenkins', 'Docker', 'GitHub', 'AWS CLI'],
+    accent: 'amber',
+  },
+  {
+    id: 'helpinghands',
+    name: 'HelpingHands',
+    subtitle: 'Full-Stack Volunteering Platform with Kubernetes Deployment',
+    status: 'complete',
+    description:
+      'Developed and deployed a full-stack volunteering platform using React.js, FastAPI, and PostgreSQL. Containerized services, built CI/CD pipelines, and deployed on Kubernetes with AWS RDS backend.',
+    highlights: [
+      'Developed and deployed a full-stack volunteering platform using React.js, FastAPI, and PostgreSQL',
+      'Dockerized frontend and backend services, built Docker images, and pushed images to Docker Hub for deployment',
+      'Deployed containerized applications on Kubernetes using Deployments and Services, with the backend connected to AWS RDS PostgreSQL',
+      'Built and maintained a Jenkins CI/CD pipeline to automate Docker image builds, registry pushes, and Kubernetes deployments',
+      'Configured application environment variables and Kubernetes Secrets for secure runtime configuration',
+      'Used GitHub for version control and managed application source code and deployment configurations',
+      'Configured AWS infrastructure and Amazon EKS to support scalable Kubernetes-based application deployment',
+    ],
+    tags: ['React.js', 'FastAPI', 'PostgreSQL', 'Docker', 'Kubernetes', 'AWS RDS', 'Jenkins', 'Git'],
+    accent: 'amber',
   },
 ]
 
